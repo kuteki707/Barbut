@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_1_dice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="un zar"
+        app:backgroundTint="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/btn_2_dice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_2_dice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="doua zaruri"
+        app:backgroundTint="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/btn_3_dice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_1_dice" />
+
+    <Button
+        android:id="@+id/btn_3_dice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="trei zaruri"
+        app:backgroundTint="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/btn_4_dice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_2_dice" />
+
+    <Button
+        android:id="@+id/btn_4_dice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="patru zaruri"
+        app:backgroundTint="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/btn_5_dice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_3_dice" />
+
+    <Button
+        android:id="@+id/btn_5_dice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="cinci zaruri"
+        app:backgroundTint="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/btn_6_dice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_4_dice" />
+
+    <Button
+        android:id="@+id/btn_6_dice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="sase zaruri"
+        app:backgroundTint="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_5_dice" />
+</androidx.constraintlayout.widget.ConstraintLayout>
