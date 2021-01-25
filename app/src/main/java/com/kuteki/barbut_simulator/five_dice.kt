@@ -20,7 +20,7 @@ class five_dice : AppCompatActivity() {
             randoms.forEach { (key,value) -> run{
 
                 findViewById<ImageView>(resources.getIdentifier("img_dice_5_$key", "id", packageName))
-                    .setImageResource(resources.getIdentifier("dice$value", "drawable", packageName))
+                    .setImageResource(resources.getIdentifier("ic_dice_vector_$value", "drawable", packageName))
                 total_value += value
             }
             }

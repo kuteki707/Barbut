@@ -29,7 +29,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dice1" />
+        app:srcCompat="@drawable/ic_dice_vector_1" />
 
     <ImageView
         android:id="@+id/img_dice_4_3"
@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toStartOf="@+id/img_dice_4_4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/dice1" />
+        app:srcCompat="@drawable/ic_dice_vector_1" />
 
     <ImageView
         android:id="@+id/img_dice_4_2"
@@ -50,7 +50,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/img_dice_4_1"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dice1" />
+        app:srcCompat="@drawable/ic_dice_vector_1" />
 
     <ImageView
         android:id="@+id/img_dice_4_4"
@@ -61,7 +61,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/img_dice_4_3"
         app:layout_constraintTop_toBottomOf="@+id/img_dice_4_2"
-        app:srcCompat="@drawable/dice1" />
+        app:srcCompat="@drawable/ic_dice_vector_1" />
 
     <Button
         android:id="@+id/button_4"

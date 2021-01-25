@@ -28,7 +28,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dice1" />
+        app:srcCompat="@drawable/ic_dice_vector_1" />
 
     <ImageView
         android:id="@+id/img_dice_6_2"
@@ -38,7 +38,7 @@
         app:layout_constraintEnd_toStartOf="@+id/img_dice_6_3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/img_dice_6_1"
-        app:srcCompat="@drawable/dice1" />
+        app:srcCompat="@drawable/ic_dice_vector_1" />
 
     <ImageView
         android:id="@+id/img_dice_6_3"
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/img_dice_6_2"
-        app:srcCompat="@drawable/dice1" />
+        app:srcCompat="@drawable/ic_dice_vector_1" />
 
     <ImageView
         android:id="@+id/img_dice_6_4"
@@ -58,7 +58,7 @@
         app:layout_constraintEnd_toStartOf="@+id/img_dice_6_5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/dice1" />
+        app:srcCompat="@drawable/ic_dice_vector_1" />
 
     <ImageView
         android:id="@+id/img_dice_6_5"
@@ -68,7 +68,7 @@
         app:layout_constraintEnd_toStartOf="@+id/img_dice_6_6"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/img_dice_6_4"
-        app:srcCompat="@drawable/dice1" />
+        app:srcCompat="@drawable/ic_dice_vector_1" />
 
     <ImageView
         android:id="@+id/img_dice_6_6"
@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/img_dice_6_5"
-        app:srcCompat="@drawable/dice1" />
+        app:srcCompat="@drawable/ic_dice_vector_1" />
 
     <Button
         android:id="@+id/button_6"
