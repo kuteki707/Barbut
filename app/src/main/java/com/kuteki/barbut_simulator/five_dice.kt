@@ -1,5 +1,6 @@
 package com.kuteki.barbut_simulator
 
+import android.content.pm.ActivityInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
@@ -11,6 +12,8 @@ class five_dice : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_five_dice)
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_NOSENSOR)
+
         var dice:Dice = Dice()
 
         button_5.setOnClickListener {

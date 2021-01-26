@@ -1,26 +1,27 @@
 package com.kuteki.barbut_simulator
 
 import android.content.Intent
+import android.content.pm.ActivityInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Gravity
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import android.widget.Spinner
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
 import kotlinx.android.synthetic.main.activity_main.*
-import android.widget.*
+
+
+private var activity_nr:Int = 0
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_NOSENSOR)
 
 
-        var activity_nr:Int = 0
+
         val dices = resources.getStringArray(R.array.dices_spinner)
         val arrayAdapter = ArrayAdapter(this,android.R.layout.select_dialog_item, dices)
 

@@ -1,5 +1,6 @@
 package com.kuteki.barbut_simulator
 
+import android.content.pm.ActivityInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -13,6 +14,7 @@ class one_dice : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_one_dice)
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_NOSENSOR)
 
         var dice:Dice = Dice()
 
