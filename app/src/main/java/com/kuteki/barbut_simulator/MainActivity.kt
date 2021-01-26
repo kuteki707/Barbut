@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
 
         var activity_nr:Int = 0
-        var dices = resources.getStringArray(R.array.dices_spinner)
+        val dices = resources.getStringArray(R.array.dices_spinner)
         val arrayAdapter = ArrayAdapter(this,android.R.layout.select_dialog_item, dices)
 
         spinner_1.adapter = arrayAdapter

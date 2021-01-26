@@ -2,10 +2,11 @@
     <string name="app_name">Barbut</string>
     <string-array name="dices_spinner">
         <item>Un zar</item>
-        <item>Doua zaruri</item>
+        <item>Două zaruri</item>
         <item>Trei zaruri</item>
         <item>Patru zaruri</item>
         <item>Cinci zaruri</item>
         <item>Șase zaruri</item>
     </string-array>
+    <string name="button_text">Amestecă</string>
 </resources>
